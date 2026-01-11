@@ -2,9 +2,28 @@
 <!-- Also called a hero image or a jumbotron before bootstrap 5. This might be helpful: https://getbootstrap.com/docs/5.1/examples/jumbotron/ -->
 <!-- <p>Hello, I'm the tagline and I was loaded using ajax from templates/tagline.html</p> -->
 
-<div class="container-fluid p-0" style="background-image: url(../website/assets/img/bg.jpg);">
-   <div class=" d-flex  justify-content-center flex-column align-items-center gap-3">
-        <div class="bg-light bg-opacity-75 display-1 fw-normal px-5 text-center"><strong>One Page Wonder</strong></div>
-        <div class="bg-light bg-opacity-75 display-4 fw-normal px-5 text-center"><strong>Will Knock Your Socks Off</strong></div>
-   </div>
+<div
+  class="container-fluid"
+  style="
+    background-image: url(../website/assets/img/bg.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+  "
+>
+  <div
+    class="d-flex justify-content-center flex-column align-items-center gap-3 container-fluid px-2 py-3"
+  >
+    <div
+      class="bg-light bg-opacity-75 display-1 fw-normal px-5 text-center w-100 mx-3"
+    >
+      <strong>One Page Wonder</strong>
+    </div>
+    <div
+      class="bg-light bg-opacity-75 display-4 fw-normal px-5 text-center w-100"
+    >
+      <strong>Will Knock Your Socks Off</strong>
+    </div>
+  </div>
 </div>
